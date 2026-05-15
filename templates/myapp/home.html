@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Django Tailwind App</title>
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-950 text-white">
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 border-b border-gray-800 px-8 py-4">
+        <div class="max-w-7xl mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-cyan-400">
+                DjangoApp
+            </h1>
+
+            <ul class="flex gap-6 text-gray-300">
+                <li><a href="#" class="hover:text-cyan-400 transition">Home</a></li>
+                <li><a href="#" class="hover:text-cyan-400 transition">About</a></li>
+                <li><a href="#" class="hover:text-cyan-400 transition">Services</a></li>
+                <li><a href="#" class="hover:text-cyan-400 transition">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen flex items-center justify-center px-6">
+
+        <div class="max-w-7xl mx-auto grid md:grid-cols-2 gap-12 items-center">
+
+            <!-- Left Content -->
+            <div>
+                <p class="text-cyan-400 font-semibold mb-4 uppercase tracking-widest">
+                    Django + Tailwind CSS
+                </p>
+
+                <h1 class="text-5xl md:text-7xl font-extrabold leading-tight mb-6">
+                    Build Modern
+                    <span class="text-cyan-400">
+                        Web Apps
+                    </span>
+                    Faster
+                </h1>
+
+                <p class="text-gray-400 text-lg leading-relaxed mb-8">
+                    Create scalable and beautiful web applications using Django backend
+                    and Tailwind CSS frontend. Fast development, clean UI, and production-ready design.
+                </p>
+
+                <div class="flex gap-4">
+                    <button class="bg-cyan-500 hover:bg-cyan-400 text-black font-semibold px-6 py-3 rounded-xl transition duration-300">
+                        Get Started
+                    </button>
+
+                    <button class="border border-gray-700 hover:border-cyan-400 hover:text-cyan-400 px-6 py-3 rounded-xl transition duration-300">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+
+            <!-- Right Card -->
+            <div class="relative">
+
+                <div class="absolute inset-0 bg-cyan-500 blur-3xl opacity-20 rounded-full"></div>
+
+                <div class="relative bg-gray-900 border border-gray-800 rounded-3xl p-8 shadow-2xl">
+
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold">
+                            Dashboard
+                        </h2>
+
+                        <span class="bg-green-500/20 text-green-400 px-3 py-1 rounded-full text-sm">
+                            Active
+                        </span>
+                    </div>
+
+                    <!-- Stats -->
+                    <div class="grid grid-cols-2 gap-4 mb-6">
+
+                        <div class="bg-gray-800 p-5 rounded-2xl">
+                            <p class="text-gray-400 text-sm mb-2">Users</p>
+                            <h3 class="text-3xl font-bold">12K+</h3>
+                        </div>
+
+                        <div class="bg-gray-800 p-5 rounded-2xl">
+                            <p class="text-gray-400 text-sm mb-2">Revenue</p>
+                            <h3 class="text-3xl font-bold">$48K</h3>
+                        </div>
+
+                        <div class="bg-gray-800 p-5 rounded-2xl">
+                            <p class="text-gray-400 text-sm mb-2">Projects</p>
+                            <h3 class="text-3xl font-bold">320</h3>
+                        </div>
+
+                        <div class="bg-gray-800 p-5 rounded-2xl">
+                            <p class="text-gray-400 text-sm mb-2">Growth</p>
+                            <h3 class="text-3xl font-bold text-cyan-400">
+                                +28%
+                            </h3>
+                        </div>
+                    </div>
+
+                    <!-- Progress -->
+                    <div class="bg-gray-800 p-5 rounded-2xl">
+
+                        <div class="flex justify-between mb-3">
+                            <span class="text-gray-300">Server Performance</span>
+                            <span class="text-cyan-400">85%</span>
+                        </div>
+
+                        <div class="w-full bg-gray-700 rounded-full h-3">
+                            <div class="bg-cyan-400 h-3 rounded-full w-[85%]"></div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Features -->
+    <section class="py-24 px-6 bg-gray-900">
+
+        <div class="max-w-7xl mx-auto">
+
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-bold mb-4">
+                    Features
+                </h2>
+
+                <p class="text-gray-400 max-w-2xl mx-auto">
+                    Everything you need to build modern full-stack applications.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+
+                <!-- Card -->
+                <div class="bg-gray-950 border border-gray-800 p-8 rounded-3xl hover:border-cyan-400 transition">
+
+                    <div class="text-5xl mb-6">⚡</div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Fast Development
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Build applications quickly using Django powerful backend and Tailwind utility classes.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+                <div class="bg-gray-950 border border-gray-800 p-8 rounded-3xl hover:border-cyan-400 transition">
+
+                    <div class="text-5xl mb-6">🔒</div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Secure Backend
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Django includes authentication, CSRF protection, ORM security, and admin panel.
+                    </p>
+
+                </div>
+
+                <!-- Card -->
+                <div class="bg-gray-950 border border-gray-800 p-8 rounded-3xl hover:border-cyan-400 transition">
+
+                    <div class="text-5xl mb-6">🎨</div>
+
+                    <h3 class="text-2xl font-bold mb-4">
+                        Modern UI
+                    </h3>
+
+                    <p class="text-gray-400 leading-relaxed">
+                        Tailwind CSS helps create responsive and professional designs easily.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-black border-t border-gray-800 py-8 text-center text-gray-500">
+        <p>
+            © 2026 DjangoApp. Built with Django & Tailwind CSS.
+        </p>
+    </footer>
+
+</body>
+</html>
