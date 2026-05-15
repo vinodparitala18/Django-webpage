@@ -1,5 +1,5 @@
 # Base Image
-FROM python:3.12-slim
+FROM ubuntu
 
 # Prevents python from writing pyc files
 ENV PYTHONDONTWRITEBYTECODE=1
