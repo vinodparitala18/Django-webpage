@@ -50,7 +50,7 @@ pdfplumber==0.11.0
 pillow==12.2.0
 platformdirs==4.9.6
 preshed==3.0.13
-psycopg2==2.9.12
+psycopg2-binary==2.9.12
 pycparser==3.0
 pydantic==2.12.5
 pydantic_core==2.41.5
